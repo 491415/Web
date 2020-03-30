@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kontakt</title>
+    <link rel="shortcut icon" href="../resources/images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../resources/styles/kontakt.css" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
+    <style type="text/css">
+        input:focus {
+            background-color: yellow;
+        }
+	</style>
+	
+</head>
+
+<body>
+    <div align="center" id="menu">
+        <ul>
+            <li><a href="pocetna.html">Početna</a></li>
+            <li><a href="fakultet.html">Fakultet</a></li>
+            <li><a href="privatno.html">Privatno</a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/in/dino-kralj-582a04128/">Životopis</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </div>
+    <div id="kontakt">
+        <form align="center" name="myForm" method="POST" action="mailto:kraljdino.x@gmail.com?Subject=Pitanje" enctype="text/plain">
+			Ime: 
+			<br>
+			<input type="text" name="ime" size="10" required> <br>
+			Prezime: 
+			<br>
+			<input type="text" name="prezime" size="10" required> 
+			<br>
+			E-Mail:
+			<br>
+			<input type="text" name="email" size="30" required>
+			<br>
+			<p> Vaše pitanje: <br>
+			<textarea rows="5" name="pitanje" cols="50" required>
+			</textarea>
+			</p>
+			<input type="submit" value="Pošalji">
+			<input type="reset" value="Obriši">
+			</form>
+		</div>
+		<div id="footer">
+			<a href="registracija.html">Registracija</a>
+			<a href="../php/stranica_ispis.php ">Svi korisnici</a>
+		</div>
+	</body>
+</html>

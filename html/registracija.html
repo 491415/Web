@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registracija</title>
+    <link rel="shortcut icon" href="../resources/images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../resources/styles/registracija.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style type="text/css">
+        input:focus {
+            background-color: cyan;
+        }
+    </style>
+</head>
+
+<body>
+    <div align="center" id="menu">
+        <ul>
+
+            <li><a href="pocetna.html">Početna</a></li>
+            <li><a href="fakultet.html">Fakultet</a></li>
+            <li><a href="privatno.html">Privatno</a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/in/dino-kralj-582a04128/">Životopis</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </div>
+    <div id="reg">
+        <h1>Unesite tražene podatke</h1>
+
+        <form method="post" action="../php/stranica_upis.php">
+            Ime :
+            <input type="text" name="Ime" required>
+            <br>
+            <br> Prezime :
+            <input type="text" name="Prezime" required>
+            <br>
+            <br> Adresa :
+            <input type="text" name="Adresa" required>
+            <br>
+            <br> E-mail :
+            <input type="text" name="Email" required>
+            <br>
+            <br> Username :
+            <input type="text" name="Username" required>
+            <br>
+            <br>
+            <input type="submit" value="Završi">
+        </form>
+    </div>
+    <div id="footer">
+        <a href="../php/stranica_ispis.php">Svi korisnici</a>
+    </div>
+</body>
+
+</html>
