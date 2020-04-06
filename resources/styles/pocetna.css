@@ -1,11 +1,9 @@
 div {
 	border-radius: 5px;
 }
-
 body {
 	background: url(https://i.pinimg.com/originals/8e/25/3d/8e253d17f68237735b2f1d5a50899275.jpg);
 }
-
 ul li a{
 	text-decoration: none;
 	font-size: 20px;
@@ -15,17 +13,13 @@ ul li a{
 	padding-right: 25px;
 	padding-bottom: 25px;
 	padding-left: 25px;
-	
 }
-
 ul li a:hover {
 	color: #9acd32;
 }
-
 ul li a:visited {
 	color: #dc143c;
 }
-
 ul li a:active {
 	color: #ff00ff;
 }
@@ -33,10 +27,8 @@ ul li {
 	font-size: 20px;
 	font-family: Verdana;
 	color: #2dffff;
-	display: inline;
-	
+	display: inline;	
 }
-
 #menu {
 	height: 60px;
 	background-color: #0d0d0d; 
@@ -44,24 +36,19 @@ ul li {
 	width: 960px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-    margin-left: auto ;
-    margin-right: auto ;
-	font-size: 40px;
-	
-	
+    margin-left: auto;
+    margin-right: auto;
+	font-size: 40px;	
 }
-
-
 #obavijesti {
 	height: 350px;
 	background-color: #0d0d0d;
 	width: 960px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-    margin-left: auto ;
-    margin-right: auto ;
+    margin-left: auto;
+    margin-right: auto;
 }
-
 a img {
 	height:300px;
 	width: 300px;
@@ -73,10 +60,9 @@ a img {
 	width: 960px;
 	margin-top: 0px;
 	margin-bottom: 0px;
-    margin-left: auto ;
-    margin-right: auto ;
+    margin-left: auto;
+    margin-right: auto;
 }
-
 #footer a{
 	text-decoration: none;
 	font-family: Verdana;
@@ -90,18 +76,13 @@ a img {
 #footer a:hover {
 	color: #9acd32;
 }
-
 #footer a:visited {
 	color: #dc143c;
 }
-
 #footer a:active {
 	color: #ff00ff;
-
 }
-
 #owl-demo {
-	
 	margin-left:50px;
 	margin-right: 10px;
 	padding-top: 10px;
@@ -109,6 +90,3 @@ a img {
 	padding-bottom:25px;
 	padding-left:35px;
 }
-
-
-
