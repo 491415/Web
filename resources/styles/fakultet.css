@@ -4,7 +4,7 @@ div {
 body {
 	background: url(https://i.pinimg.com/originals/8e/25/3d/8e253d17f68237735b2f1d5a50899275.jpg);
 }
-ul li a{
+ul li a {
 	text-decoration: none;
 	font-size: 20px;
 	font-family: Verdana;
@@ -32,12 +32,12 @@ ul li {
 #menu {
 	height: 60px;
 	background-color: #0d0d0d; 
-    z-index: 1;
+    	z-index: 1;
 	width: 960px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    	margin-left: auto;
+    	margin-right: auto;
 	font-size: 40px;		
 }
 #obaveze {
@@ -46,8 +46,8 @@ ul li {
 	width: 960px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    	margin-left: auto;
+    	margin-right: auto;
 	color: #ffd700;
 }
 img {
@@ -60,10 +60,10 @@ img {
 	width: 960px;
 	margin-top: 0px;
 	margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
+    	margin-left: auto;
+    	margin-right: auto;
 }
-#footer a{
+#footer a {
 	text-decoration: none;
 	font-family: Verdana;
 	padding-top: 25px;
