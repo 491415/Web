@@ -15,7 +15,6 @@
 <body>
     <div align="center" id="menu">
         <ul>
-
             <li><a href="pocetna.html">Početna</a></li>
             <li><a href="fakultet.html">Fakultet</a></li>
             <li><a href="privatno.html">Privatno</a></li>
@@ -23,32 +22,36 @@
             <li><a href="kontakt.html">Kontakt</a></li>
         </ul>
     </div>
-    <div id="reg">
+    <div align="center" id="reg"> 
         <h1>Unesite tražene podatke</h1>
 
         <form method="post" action="../php/stranica_upis.php">
             Ime :
-            <input type="text" name="Ime" required>
             <br>
-            <br> Prezime :
+            <input type="text" name="Ime" required>
+            <br> 
+            Prezime :
+            <br>
             <input type="text" name="Prezime" required>
             <br>
-            <br> Adresa :
+            Adresa :
+            <br>
             <input type="text" name="Adresa" required>
+            <br> 
+            E-mail :
             <br>
-            <br> E-mail :
             <input type="text" name="Email" required>
+            <br> 
+            Username :
             <br>
-            <br> Username :
             <input type="text" name="Username" required>
             <br>
             <br>
-            <input type="submit" value="Završi">
+            <input type="submit" value="Registriraj me">
         </form>
     </div>
     <div id="footer">
         <a href="../php/stranica_ispis.php">Svi korisnici</a>
     </div>
 </body>
-
 </html>
